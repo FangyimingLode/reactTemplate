@@ -1,0 +1,13 @@
+.DS_Store
+.cache
+.build-cache*
+
+node_modules
+
+# TODO: plat-components 里的 lock 文件在对应的 PR 里一个个补回来，全补回之后再删除这里的忽略条件
+!/package-lock.json
+dist
+config.js
+.directory
+.idea
+.vscode
